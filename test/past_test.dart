@@ -2,8 +2,8 @@ library inflection.past.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection/src/past.dart';
-import 'package:inflection/src/irregular_past_verbs.dart';
+import 'package:inflection2/src/past.dart';
+import 'package:inflection2/src/irregular_past_verbs.dart';
 
 void main() {
   group("The PastEncoder", () {

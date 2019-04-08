@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.2
+- Dart 2 compatibility.
+- Hard fork.
+
 ## 0.4.1
 
 - Cleanup, follow latest conventions and developments in the Dartiverse.

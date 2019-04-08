@@ -54,7 +54,7 @@ class PastEncoder extends Converter<String, String> {
       }
 
       for (var r in _inflectionRules) {
-        RegExp pattern = r.first;
+        var pattern = r.first as RegExp;
         if (pattern.hasMatch(word)) {
           return word.replaceAllMapped(pattern, r.last as MatchToString);
         }

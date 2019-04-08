@@ -2,7 +2,7 @@ library inflection.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection/inflection.dart';
+import 'package:inflection2/inflection2.dart';
 
 void main() {
   group("The inflection library", () {

@@ -2,7 +2,7 @@ library inflection.snake_case.test;
 
 import 'package:test/test.dart';
 
-import 'package:inflection/src/snake_case.dart';
+import 'package:inflection2/src/snake_case.dart';
 
 void main() {
   group("The SnakeCaseEncoder", () {
