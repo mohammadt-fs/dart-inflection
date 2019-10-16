@@ -6,6 +6,7 @@ import 'singular_test.dart' as singular_test;
 import 'singular_verb_test.dart' as singular_verb_test;
 import 'snake_case_test.dart' as snake_case_test;
 import 'spinal_case_test.dart' as spinal_case_test;
+import 'is_tense_test.dart' as is_tense_test;
 
 void main() {
   inflection_test.main();
@@ -16,4 +17,5 @@ void main() {
   singular_verb_test.main();
   snake_case_test.main();
   spinal_case_test.main();
+  is_tense_test.main();
 }
