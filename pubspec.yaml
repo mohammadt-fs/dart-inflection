@@ -1,5 +1,5 @@
 name: inflection2
-version: 0.4.2
+version: 0.4.3
 environment:
   sdk: ">=1.8.0 <3.0.0"
 authors:

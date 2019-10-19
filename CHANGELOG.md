@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.3
+- Add past tense support (thanks @phodonou !)
+
 ## 0.4.2
 - Dart 2 compatibility.
 - Hard fork.
