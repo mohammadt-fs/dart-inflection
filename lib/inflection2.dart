@@ -21,6 +21,7 @@ export 'src/singular.dart';
 export 'src/singular_verb.dart';
 export 'src/snake_case.dart';
 export 'src/spinal_case.dart';
+export 'src/is_tense.dart';
 
 String convertToPlural(String word) => PLURAL.convert(word);
 String pluralize(String word) => PLURAL.convert(word);
