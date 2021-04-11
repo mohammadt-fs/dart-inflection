@@ -1,1 +1,1 @@
-typedef String MatchToString(Match m);
+typedef String? MatchToString(Match m);

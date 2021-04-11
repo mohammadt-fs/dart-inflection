@@ -34,7 +34,9 @@ class SingularVerbEncoder extends Converter<String, String> {
       for (var r in _inflectionRules) {
         var pattern = r.first as RegExp;
         if (pattern.hasMatch(word)) {
-          return word.replaceAllMapped(pattern, r.last as MatchToString);
+          final matcher = r.last as MatchToString;
+          return word.replaceAllMapped(
+              pattern, (Match match) => matcher(match)!);
         }
       }
     }
